@@ -3,7 +3,7 @@ import React from "react";
 
 
 function OneItem({ item, addItem, removeItem, inCart }) {
-  
+
   return (
     <div className="card">
       <img className="card-img-top" src={require(`../data/${item.img}`)} />
@@ -15,6 +15,7 @@ function OneItem({ item, addItem, removeItem, inCart }) {
         </div>
 
         <div className="card-price">{item.price}</div>
+        
         {!inCart ? (
           <>
             <button className="btn card-btn" onClick={() => addItem(item.id)}>
