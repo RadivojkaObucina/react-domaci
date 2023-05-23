@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 
 function NavBar({ cartNum }) {
+  
   return (
     <div className="navBar">
       <Link to="/">Početna</Link>
