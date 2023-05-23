@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import OneItem from "./OneItem";
 import NavBar from "./NavBar";
 
+
+
 const Items = ({ items, addItem, cartNum }) => {
   const [sort, setSort] = useState(true);
 
@@ -12,6 +14,7 @@ const Items = ({ items, addItem, cartNum }) => {
   function sortDesc() {
     setSort(true);
   }
+
 
   return (
     <>
