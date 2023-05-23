@@ -2,6 +2,8 @@ import OneItem from "./OneItem";
 import React from "react";
 import NavBar from "./NavBar";
 
+
+
 const Cart = ({ items, addItem, removeItem, cartNum }) => {
   return (
     <>
@@ -29,5 +31,6 @@ const Cart = ({ items, addItem, removeItem, cartNum }) => {
     </>
   );
 };
+
 
 export default Cart;
