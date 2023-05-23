@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
 function NavBar({ cartNum }) {
   return (
     <div className="navBar">
@@ -12,4 +14,5 @@ function NavBar({ cartNum }) {
     </div>
   );
 }
+
 export default NavBar;
