@@ -8,7 +8,7 @@ function NavBar({ cartNum }) {
     <div className="navBar">
       <Link to="/">Početna</Link>
       <Link to="/korpa" className="cart-items">
-        <p>Korpa</p>
+        <p>Potrošačka korpa</p>
       </Link>
       <p className="cart-num">{cartNum}</p>
     </div>
