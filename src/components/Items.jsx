@@ -30,6 +30,7 @@ const Items = ({ items, addItem, cartNum }) => {
           </button>
         </div>
         <div className="all-items">
+          
           {sort === true ? (
             <>
               {items
